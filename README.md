@@ -1,9 +1,5 @@
 # Contacts
 
-This repo is a code-along with the in-course project in the React Nanodegree program.
-
-Most of the commits in this repository correspond to videos in the program.
-
 ## Project Setup
 
 1. Clone the project.
