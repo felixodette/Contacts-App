@@ -36,7 +36,7 @@ const ListContacts = ({ contacts, onDeleteContact }) => {
             <div className={"contact-avatar"} style={{backgroundImage: `url(${contact.avatarURL})`,}}/>
             <div className="contact-details">
               <p>{contact.name}</p>
-              <p>@{contact.handle}</p>
+              <p>{contact.handle}</p>
             </div>
             <button className="contact-remove" onClick={() => onDeleteContact(contact)}>Remove</button>
           </li>
