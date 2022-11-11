@@ -1,6 +1,7 @@
 import "../css/App.css";
 import { useState, useEffect } from 'react';
 import ListContacts from "./ListContacts";
+import CreteContact from "./CreateContact";
 import * as ContactsAPI from '../utils/ContactsAPI';
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
   return (
     <div>
       <ListContacts contacts={contacts} onDeleteContact={removeContact} />
+      <CreteContact />
     </div>
   )
 };
