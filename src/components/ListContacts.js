@@ -51,7 +51,7 @@ const ListContacts = ({ contacts, onDeleteContact }) => {
 }
 
 // eslint-disable-next-line react/no-typos
-ListContacts.PropTypes = {
+ListContacts.propTypes = {
   contacts: PropTypes.array.isRequired,
   onDeleteContact: PropTypes.func.isRequired
 }
